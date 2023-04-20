@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply flex items-center border-2 rounded-xl py-4 px-5 border-gray-200 font-medium hover:bg-opacity-30 hover:shadow-lg
+    hover:-translate-y-0.5 transition-all duration-150 mr-5;
+}
